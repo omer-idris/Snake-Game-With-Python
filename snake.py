@@ -24,7 +24,7 @@ class Snake:
             self.turtles[i].goto(self.turtles[i + 1].pos())
         self.head.forward(20)
         window.update()
-        time.sleep(0.08)
+        time.sleep(0.1)
         
     def tail(self):
         new_segment = Turtle('square')
@@ -41,6 +41,7 @@ class Snake:
         self.head.setheading(180)
     def up(self):
         self.head.setheading(90)
+
 
 
 
