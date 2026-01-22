@@ -9,6 +9,7 @@ window.bgcolor('bisque4')
 window.setup(width=1000, height=550)
 window.title('لعبة الثعبان - في الطريق الى القمة ')
 
+# حدود الحلبة
 for i in range(1):
     borderer = Turtle()
     borderer.pensize(10)
@@ -50,6 +51,7 @@ while on_go:
         if omer.head.distance(i) < 10:
             on_go = False
             score.game_over()
+
 
 
 window.exitonclick()
